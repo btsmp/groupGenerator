@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(33, 33, 33);
+    background: radial-gradient(
+        circle,
+        rgba(33, 33, 33, 1) 0%,
+        rgba(0, 0, 0, 1) 100%
+    );
+}
+
+.white {
+    color: white;
+}
+
+main {
+    font-family: "Source Serif Pro", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+}
+
+textarea {
+    background-color: transparent;
+    color: white;
+    resize: none;
+    border: 1px solid;
+    border-radius: 4px;
+    font-family: "Source Serif Pro", serif;
+    width: 80vw;
+    max-width: 500px;
+    height: 32vh;
+}
+
+.button {
+    font-size: 15px;
+    font-family: "Source Serif Pro", serif;
+    width: 140px;
+    height: 50px;
+    border-width: 2px;
+    color: rgba(246, 246, 243, 1);
+    border-color: rgba(223, 222, 220, 1);
+    font-weight: bold;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 1px 0px 0px rgba(236, 231, 216, 1);
+    background: rgba(22, 22, 21, 1);
+}
+
+.button:hover {
+    background: rgba(85, 80, 80, 1);
+}
+
+#group {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+    height: 30vh;
+}
+
+.groups{
+    font-family: "Source Serif Pro", serif;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 1.5rem
+}
+
+.disabled{
+    visibility: hidden;
+}

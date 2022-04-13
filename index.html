@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Gerador de grupos</title>
+    </head>
+    <body>
+        <main>
+            <h1 class="white">Gerador de grupos</h1>
+            <label for="members">
+                <textarea
+                    name="members"
+                    id="members"
+                    rows="12"
+                    cols="50"
+                    autocomplete="off"
+                    spellcheck="false"
+                    placeholder="Digite os nomes separados por uma quebra de linha."
+                ></textarea>
+            </label>
+            <button onclick="catchMembers()" class="button">Dividir</button>
+        </main>
+        <section id="group" class="disabled">
+            <div id="group1" class="groups">
+                <h1>Grupo 1</h1>
+                <p id="g1"></p>
+            </div>
+            <div id="group2" class="groups">
+                <h1>Grupo 2</h1>
+                <p id="g2"></p>
+            </div>
+        </section>
+    </body>
+
+    <script src="script.js"></script>
+</html>
